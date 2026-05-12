@@ -1,3 +1,5 @@
+<img alt="LiveSwitch — configuration-driven multi-agent voice orchestration on LiveKit Agents 1.3" src="./assets/thumbnail-dark.png" width="100%">
+
 # LiveSwitch
 
 > **Dynamic Multi-Agent Voice Orchestration Platform**
@@ -303,6 +305,10 @@ if config.orchestration.fallback_assistant:
 ---
 
 ## Architecture
+
+<img alt="LiveSwitch Multi-Agent Orchestration — voice in, JSON-configured agent registry, shared SQLite context, voice out" src="./assets/architecture-art-dark.png" width="100%">
+
+The ASCII diagram below shows the same pipeline at the implementation level — useful when you want to trace a specific request through the worker.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
